@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBDFDA"
+    android:backgroundTint="#A4CDC8"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:rotationX="17"
+    android:visibility="visible">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationX="-4"
+        android:text="@string/gestion_de_v_nement"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/espace_admin"
+        android:textSize="24sp"
+        app:icon="@android:drawable/ic_menu_myplaces"
+        app:iconPadding="10dp" />
+
+    <Button
+        android:id="@+id/be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/espace_etudiant"
+        android:textSize="24sp"
+        app:icon="@android:drawable/ic_menu_myplaces"
+        app:iconPadding="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Titre" />
+    <string name="Lieu" />
+    <string name="Date" />
+    <string name="Description" />
+    <string name="Cin" />
+    <string name="nom" />
+    <string name="gestion_de_v_nement">Gestion de évènement</string>
+    <string name="espace_admin">Espace Admin</string>
+    <string name="espace_etudiant">Espace Etudiant</string>
+    <string name="done">Done</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="d_tails_d_v_nement">Détails d\'évènement</string>
+    <string name="inscrit_a_cette_v_venement">inscrit a cette évèvenement</string>
+    <string name="inscrit_a_cette_e_venement">inscrit a cette évèvenement</string>
+    <string name="retour">Retour</string>
+    <string name="espac_admin">Espace Admin</string>
+    <string name="ajouter_un_v_nement">Ajouter un évènement</string>
+    <string name="espac_etudiant">Espace Etudiant</string>
+    <string name="ajouter">ajouter</string>
+    <string name="ajoute">Ajouter</string>
+    <string name="annule">Annuler</string>
+    <string name="Annule">Annuler</string>
+    <string name="titre">Titre</string>
+    <string name="date">Date</string>
+    <string name="lieu">Lieu</string>
+    <string name="description">Description</string>
+    <string name="liste_de_v_nement">liste de évènement</string>
+    <string name="listes_des_etudiant_inscrit_a_cette_evenement">listes des etudiant inscrit a cette evenement</string>
+    <string name="supprimer_ce_evenement">supprimer ce evenement</string>
+</resources>

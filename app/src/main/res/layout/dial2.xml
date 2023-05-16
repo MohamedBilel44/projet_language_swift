@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+             <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d_tails_d_v_nement"
+        android:textSize="24sp"/>
+
+    <ListView
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listes_des_etudiant_inscrit_a_cette_evenement"
+        android:textSize="24sp"/>
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/supprimer_ce_evenement"
+        android:textSize="24sp"/>
+    
+</LinearLayout>

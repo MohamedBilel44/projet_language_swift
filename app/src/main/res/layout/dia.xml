@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:autofillHints=""
+        android:hint="@string/titre"
+        android:inputType="textEmailAddress"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:autofillHints=""
+        android:hint="@string/date"
+        android:inputType="textEmailAddress"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+
+    <EditText
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:autofillHints=""
+        android:hint="@string/lieu"
+        android:inputType="textEmailAddress"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/ds"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:autofillHints=""
+        android:hint="description"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#8D6E63"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+    <Button
+
+        android:id="@+id/yes"
+
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+
+        android:text="@string/ajouter"
+         />
+
+    <Button
+        android:id="@+id/no"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+
+        android:text="@string/Annule"
+
+
+         />
+    
+</LinearLayout>

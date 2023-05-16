@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/Cin"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nom"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,SpeakableTextPresentCheck"
+         />
+    <Button
+        android:id="@+id/oui"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inscrit_a_cette_e_venement"
+        android:textSize="24sp"
+        tools:ignore="VisualLintButtonSize" />
+    <Button
+        android:id="@+id/non"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retour"
+        android:textSize="24sp"/>
+    
+</LinearLayout>
